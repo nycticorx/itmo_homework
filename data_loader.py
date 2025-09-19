@@ -1,7 +1,4 @@
 >>> import pandas as pd
->>> FILE_ID = "1hdmmcMi5-30MwvlKdwXb7XeeGYmyJMoK"
->>> file_url = f"https://docs.google.com/spreadsheets/d/{FILE_ID}"
->>> import pandas as pd
 >>> FILE_ID = "1JoUNSGst7mIbon9LpFjIeIdpjuVVPpcg"
 >>> file_url = f"https://drive.google.com/uc?id={FILE_ID}"
 >>> raw_data = pd.read_csv(file_url)
