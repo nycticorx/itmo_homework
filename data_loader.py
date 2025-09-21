@@ -1,8 +1,8 @@
- import pandas as pd
- FILE_ID = "1JoUNSGst7mIbon9LpFjIeIdpjuVVPpcg"
- file_url = f"https://drive.google.com/uc?id={FILE_ID}"
- raw_data = pd.read_csv(file_url)
- print(raw_data.head(10))
+import pandas as pd
+FILE_ID = "1JoUNSGst7mIbon9LpFjIeIdpjuVVPpcg"
+file_url = f"https://drive.google.com/uc?id={FILE_ID}"
+raw_data = pd.read_csv(file_url)
+print(raw_data.head(10))
      id      SDI1_1  Dem_St_Age  Dem_St_Sex Dem_St_SityStatus  ...  SDI4_6_Other  SDI4_8 SDI4_9  GWAS Genotek
 0  2001         NaN         NaN         2.0               NaN  ...           NaN     NaN    NaN   NaN     NaN
 1  2002         NaN         NaN         2.0               NaN  ...           NaN     NaN    NaN   NaN     NaN
