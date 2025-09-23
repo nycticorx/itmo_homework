@@ -72,5 +72,5 @@ poetry install --no-root</pre>
 
 ## Результат выгрузки данных:
 
-<img width="1390" height="520" alt="image" src="https://github.com/user-attachments/assets/9bad6b67-1c34-4f13-b904-b289033fbd0f" />
->>>
+<img width="1387" height="392" alt="image" src="https://github.com/user-attachments/assets/e4651ed6-6699-4de5-87fb-ebb68a3b53d5" />
+
