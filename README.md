@@ -11,9 +11,9 @@ itmo_homework/
 ├── requirements.txt        # Зависимости Python
 ├── pyproject.toml          # Полное описание проекта
 └── README.md              # Документация проекта </pre>
-# Дзшка 1 - Поиск сырых данных
+# Поиск сырых данных
 [Датасет](https://drive.google.com/drive/folders/1Nn9C2s_yZyvhX5LKMBCX4IR53z-8D4w9?usp=sharing)  — Данные взяты с моей дипломной работы
-# Дзшка 2 - Проект
+# Проект
 > Этот проект загружает CSV-данные с Диска и показывает первые 10 строк.
 ## Создание виртуального окружения
 <pre>conda create -n my_env python=3.13 pip
