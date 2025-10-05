@@ -10,8 +10,8 @@ itmo_homework/
 ├── data_loader.py          # Основной скрипт для загрузки и отображения данных
 ├── requirements.txt        # Зависимости Python
 ├── pyproject.toml          # Полное описание проекта
-└── README.md              # Документация проекта </pre>
-└── .gitignore              # Исключения для Git
+└── README.md              # Документация проекта 
+└── .gitignore              # Исключения для Git </pre>
 # Поиск сырых данных
 [Датасет](https://drive.google.com/drive/folders/1Nn9C2s_yZyvhX5LKMBCX4IR53z-8D4w9?usp=sharing)  — Данные взяты с моей дипломной работы
 # Проект
@@ -80,6 +80,8 @@ poetry install --no-root</pre>
 
 
 ### Приведение типов данных
+
+когда будет время сделаю все по красоте, простите+поймите ):
 <img width="446" height="955" alt="image" src="https://github.com/user-attachments/assets/8e18fdaa-2891-4b02-979f-8daed0b16d0e" />
 <img width="465" height="506" alt="image" src="https://github.com/user-attachments/assets/540e5835-a85c-4c46-81bd-38332cf7aa88" />
 
