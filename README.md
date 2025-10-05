@@ -80,8 +80,8 @@ poetry install --no-root</pre>
 
 
 ### Приведение типов данных
-
 когда будет время сделаю все по красоте, простите+поймите ):
+
 <img width="446" height="955" alt="image" src="https://github.com/user-attachments/assets/8e18fdaa-2891-4b02-979f-8daed0b16d0e" />
 <img width="465" height="506" alt="image" src="https://github.com/user-attachments/assets/540e5835-a85c-4c46-81bd-38332cf7aa88" />
 
