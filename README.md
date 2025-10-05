@@ -11,6 +11,7 @@ itmo_homework/
 ├── requirements.txt        # Зависимости Python
 ├── pyproject.toml          # Полное описание проекта
 └── README.md              # Документация проекта </pre>
+└── .gitignore              # Исключения для Git
 # Поиск сырых данных
 [Датасет](https://drive.google.com/drive/folders/1Nn9C2s_yZyvhX5LKMBCX4IR53z-8D4w9?usp=sharing)  — Данные взяты с моей дипломной работы
 # Проект
@@ -73,4 +74,17 @@ poetry install --no-root</pre>
 ## Результат выгрузки данных:
 
 <img width="1387" height="392" alt="image" src="https://github.com/user-attachments/assets/e4651ed6-6699-4de5-87fb-ebb68a3b53d5" />
+
+
+
+
+
+### Приведение типов данных
+<img width="446" height="955" alt="image" src="https://github.com/user-attachments/assets/8e18fdaa-2891-4b02-979f-8daed0b16d0e" />
+<img width="465" height="506" alt="image" src="https://github.com/user-attachments/assets/540e5835-a85c-4c46-81bd-38332cf7aa88" />
+
+
+
+
+
 
