@@ -115,6 +115,6 @@ df = df.rename(columns={
     "SDI4_9": "covid19_other_problems_other",
 })
 
-print(df.dtypes)
+df.dtypes.to_frame(name='Тип данных').style.set_caption("Типы данных в DataFrame")
 
 df.to_parquet("my_project.parquet")
