@@ -28,7 +28,8 @@ for col in int_cols:
 
 bool_cols = ["SDI1_10", "SDI2_11", "SDI3_6", "SDI3_7", "GWAS"]
 for col in bool_cols:
-    df[col] = df[col].map({"1": True, "0": False}).astype("boolean")  # Преобразуем строки "1"/"0" в bool, остальные в NaN
+    # Преобразуем строки "1"/"0" в bool, остальные в NaN
+    df[col] = df[col].map({"1": True, "0": False}).astype("boolean")
 
 
 text_cols = [
@@ -66,8 +67,54 @@ geno_mapping = {
     "47471478\xa0": {"CC": 0, "CT": 1, "TT": 2}
 }
 
+
+
 for col in geno_cols:
     df[col] = df[col].map(geno_mapping[col]).astype("Int32")
+
+df = df.rename(columns={
+    "174868700": "SNP1_174868700",
+    "78171124": "SNP2_78171124",
+    "78172260": "SNP3_78172260",
+    "18047255": "SNP4_18047255",
+    "18047816": "SNP5_18047816",
+    "113346955": "SNP6_113346955",
+    "113803028": "SNP7_113803028",
+    "72331923": "SNP8_72331923",
+    "72372862": "SNP9_72372862",
+    "47409034": "SNP10_47409034",
+    "28551665": "SNP11_28551665",
+    "19951271": "SNP12_19951271",
+    "27677041\xa0": "SNP13_27677041",
+    "27679916\xa0": "SNP14_27679916",
+    "63261329\xa0": "SNP15_63261329",
+    "47471478\xa0": "SNP16_47471478",
+    "SDI1_1": "birthday",
+    "SDI1_7": "nationality",
+    "SDI1_10": "bilingualism",
+    "SDI1_11": "bilingualism_level",
+    "SDI2_8": "income_level",
+    "SDI2_9": "a_full_fledged_family",
+    "SDI2_10": "breastfeeding",
+    "SDI2_11": "childhood_abuse",
+    "SDI3_1": "chronic_disease",
+    "SDI3_2": "smoking",
+    "SDI3_3": "smoking_level",
+    "SDI3_4": "sports_frequency",
+    "SDI3_5": "sports_name",
+    "SDI3_6": "antibiotic",
+    "SDI3_7": "hormonal_therapy",
+    "SDI3_9": "family_psychiatric_disease",
+    "SDI4_2": "covid19",
+    "SDI4_3 сколько раз": "covid19_how_many_times",
+    "SDI4_4": "date_of_covid19",
+    "SDI4_5": "covid19_symptoms",
+    "SDI4_5_Other": "covid19_symptoms_other",
+    "SDI4_6": "covid19_degree",
+    "SDI4_8": "changes_in_precognitive_disorders",
+    "SDI4_9": "covid19_other_problems_other",
+})
+
 print(df.dtypes)
 
 df.to_parquet("my_project.parquet")
