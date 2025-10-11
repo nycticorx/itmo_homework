@@ -5,12 +5,15 @@ api взято с сайта publicapis.io
 2. Загружает информацию об агентах (имя, роль, внутреннее имя, UUID)
 3. Конвертирует данные в формат pandas.DataFrame
 4. Отображает первые 10 записей в консоли
+ 
+ <details> 
+<summary>Зависимости:</summary>
 
+Python 3.9+<br>
+requests — для работы с HTTP-запросами<br>
+pandas — для обработки данных
 
-  <summary>Зависимости:</summary>
-> Python 3.9+
-> requests — для работы с HTTP-запросами
-> pandas — для обработки данных
+</details>
 
 ### Установка зависимостей
 <pre> pip install requests pandas </pre>
