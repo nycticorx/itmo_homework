@@ -1,3 +1,5 @@
+# write_to_db.py
+
 import pandas as pd
 import sqlite3
 from sqlalchemy import create_engine, text
@@ -23,7 +25,7 @@ df = df.head(100)  # максимум 100 строк
 df.columns = [col.lower() for col in df.columns]
 
 # 4. Записываем данные в таблицу с вашей фамилией 
-my_table_name = "malina"  
+my_table_name = "gabdrakhmanova"  
 df.to_sql(
     name=my_table_name,
     con=engine,
