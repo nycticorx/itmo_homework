@@ -40,13 +40,18 @@ itmo_homework/
 # Описание датасета
 [Датасет](https://drive.google.com/drive/folders/1Nn9C2s_yZyvhX5LKMBCX4IR53z-8D4w9?usp=sharing) 
 
-<div style="display: flex; justify-content: center; gap: 20px;">
-
-  <img src="https://github.com/user-attachments/assets/62248523-f9b8-41db-bb6c-701dadee4594" width="400"/>
-  
-  <img src="https://github.com/user-attachments/assets/73c9354c-1a8b-4328-aade-fd0a90430615" width="400"/>
-
-</div>
+<p align="center">
+  <table align="center">
+    <tr>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/62248523-f9b8-41db-bb6c-701dadee4594" width="400"/>
+      </td>
+      <td align="center">
+        <img src="https://github.com/user-attachments/assets/73c9354c-1a8b-4328-aade-fd0a90430615" width="400"/>
+      </td>
+    </tr>
+  </table>
+</p>
 
 
 # Функциональность
@@ -185,9 +190,9 @@ poetry install --no-root</pre>
 ## Выводы по EDA
 https://nbviewer.org/github/nycticorx/itmo_homework/blob/main/notebooks/eda.ipynb
 
-
-
-
+1) Нет связи между большинством анализируемых социо-демографических факторов и зависимостью от смартфона 
+2) Обнаружены значимые различия в зависимости от смартфона по гендерному признаку
+3) Выявлена этнически-специфичная ассоциация полиморфизма rs4680 гена COMT с зависимостью от смартфона: носители генотипа AA среди башкир демонстрируют большую зависимость, при отсутствии подобной связи у русских и татар.
 
 
 
