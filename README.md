@@ -187,7 +187,7 @@ poetry install --no-root</pre>
 <img width="508" height="935" alt="image" src="https://github.com/user-attachments/assets/f4464343-cc70-4281-98ba-3df175604209"> <img width="505" height="955" alt="image" src="https://github.com/user-attachments/assets/375068ec-10ea-4a0d-8ca1-426cb07a6c1a"> <img width="499" height="244" alt="image" src="https://github.com/user-attachments/assets/688a0b0a-557e-4495-ace9-71c179c853cd" />
 </details> 
 
-## Выводы по EDA
+## Выводы по EDA[
 https://nbviewer.org/github/nycticorx/itmo_homework/blob/main/notebooks/eda.ipynb
 
 1) Нет связи между большинством анализируемых социо-демографических факторов и зависимостью от смартфона 
