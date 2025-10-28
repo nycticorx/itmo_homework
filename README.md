@@ -1,6 +1,12 @@
 # Smartphone Addiction & Genetics — Data Analysis Project”
 
 Проект посвящён исследованию взаимосвязи уровня зависимости от смартфона (SAS-SV) с генетическими и демографическими факторами.
+
+<div align="center">
+
+  <img width="1424" height="745" alt="image" src="https://github.com/user-attachments/assets/b0f0c77f-a5bb-45e4-a2f2-9104f113789a" />
+
+</div> 
 Используется уникальный датасет, содержащий:
 
 1. анкетные данные респондентов,
@@ -15,17 +21,34 @@
 - формирования выводов и гипотез для дальнейшего анализа.
 
 # Структура проекта
+
 <pre>
 itmo_homework/
-├── data_loader.py          # Основной скрипт для загрузки и отображения данных
+├── README.md               # Основная документация проекта
+├── .gitignore              # Исключения для Git
+├── pyproject.toml          # Конфигурация проекта и зависимости
 ├── requirements.txt        # Зависимости Python
-├── pyproject.toml          # Полное описание проекта
-└── README.md              # Документация проекта 
-└── .gitignore              # Исключения для Git </pre>
+├── api_reader.py           # Основной скрипт для работы с API
+├── src/
+│   ├── __init__.py
+│   ├── data_loader.py      # Функции для загрузки данных
+│   └── write_to_db.py      # Функции для записи в БД
+├── notebooks/
+    └── eda.ipynb           # Ноутбук для анализа данных </pre>
 
 
-# Поиск сырых данных
+# Описание датасета
 [Датасет](https://drive.google.com/drive/folders/1Nn9C2s_yZyvhX5LKMBCX4IR53z-8D4w9?usp=sharing) 
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+
+  <img src="https://github.com/user-attachments/assets/62248523-f9b8-41db-bb6c-701dadee4594" width="400"/>
+  
+  <img src="https://github.com/user-attachments/assets/73c9354c-1a8b-4328-aade-fd0a90430615" width="400"/>
+
+</div>
+
+
 # Функциональность
 1. Загрузка и очистка данных
 2. Анализ распределений признаков
@@ -154,9 +177,12 @@ poetry install --no-root</pre>
 
 </div>
 
+<details> <summary>screenshots: </summary> 
+  
 <img width="508" height="935" alt="image" src="https://github.com/user-attachments/assets/f4464343-cc70-4281-98ba-3df175604209"> <img width="505" height="955" alt="image" src="https://github.com/user-attachments/assets/375068ec-10ea-4a0d-8ca1-426cb07a6c1a"> <img width="499" height="244" alt="image" src="https://github.com/user-attachments/assets/688a0b0a-557e-4495-ace9-71c179c853cd" />
+</details> 
 
-
+## Выводы по EDA
 https://nbviewer.org/github/nycticorx/itmo_homework/blob/main/notebooks/eda.ipynb
 
 
