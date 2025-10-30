@@ -25,17 +25,18 @@
 <pre>
 itmo_homework/
 ├── README.md               # Основная документация проекта
+├── scr/                  
+│   ├── extract.py        # Модуль извлечения данных из внешних источников
+│   ├── transform.py      # Модуль преобразования, нормализации и очистки данных
+│   ├── load.py           # Модуль сохранения данных в файлы и базы данных
+│   └── main.py           # Основной модуль, запускающий весь процесс ETL
+├── notebooks/
+│   └── eda.ipynb           # Ноутбук для анализа данных
 ├── .gitignore              # Исключения для Git
 ├── pyproject.toml          # Конфигурация проекта и зависимости
 ├── requirements.txt        # Зависимости Python
-├── api_reader.py           # Основной скрипт для работы с API
-├── src/
-│   ├── __init__.py
-│   ├── data_loader.py      # Функции для загрузки данных
-│   └── write_to_db.py      # Функции для записи в БД
-├── notebooks/
-    └── eda.ipynb           # Ноутбук для анализа данных </pre>
-
+├── experiments             # Папка с тестовыми запусками
+└── README.md               # Этот файл </pre>
 
 # Описание датасета
 [Датасет](https://drive.google.com/drive/folders/1Nn9C2s_yZyvhX5LKMBCX4IR53z-8D4w9?usp=sharing) 
@@ -187,7 +188,7 @@ poetry install --no-root</pre>
 <img width="508" height="935" alt="image" src="https://github.com/user-attachments/assets/f4464343-cc70-4281-98ba-3df175604209"> <img width="505" height="955" alt="image" src="https://github.com/user-attachments/assets/375068ec-10ea-4a0d-8ca1-426cb07a6c1a"> <img width="499" height="244" alt="image" src="https://github.com/user-attachments/assets/688a0b0a-557e-4495-ace9-71c179c853cd" />
 </details> 
 
-## Выводы по EDA[
+## Выводы по EDA
 https://nbviewer.org/github/nycticorx/itmo_homework/blob/main/notebooks/eda.ipynb
 
 1) Нет связи между большинством анализируемых социо-демографических факторов и зависимостью от смартфона 
