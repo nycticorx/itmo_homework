@@ -1,4 +1,4 @@
-# Smartphone Addiction & Genetics — Data Analysis Project”
+# Smartphone Addiction & Genetics — Data Analysis Project
 
 Проект посвящён исследованию взаимосвязи уровня зависимости от смартфона (SAS-SV) с генетическими и демографическими факторами.
 
