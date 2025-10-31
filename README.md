@@ -196,5 +196,16 @@ https://nbviewer.org/github/nycticorx/itmo_homework/blob/main/notebooks/eda.ipyn
 2) Обнаружены значимые различия в зависимости от смартфона по гендерному признаку
 3) Выявлена этнически-специфичная ассоциация полиморфизма rs4680 гена COMT с зависимостью от смартфона: носители генотипа AA среди башкир демонстрируют большую зависимость, при отсутствии подобной связи у русских и татар.
 
+# ETL Pipeline
+Этот проект реализует простой ETL-конвейер: **Extract → Transform → Load**  
+для обработки и загрузки данных из Google Drive в локальную базу и Parquet-файлы.
 
+## Запуск скрипта
+<pre>
+  python etl/main.py --file-id <ID_файла_Google_Drive>
+</pre>
 
+# Для связи
+- Telegram: [@nycticorx](https://t.me/nycticorx)  
+- GitHub: [github.com/nycticorx](https://github.com/nycticorx)
+- с вопросами обращайтесь к преподавателям :)
